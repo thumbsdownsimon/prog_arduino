@@ -33,6 +33,10 @@ void loop() {
   lcd.setCursor(0, 0);
   lcd.print(newC);
 
+  lcd.setCursor(5, 0);
+  lcd.print("C");
+  lcd.write(223);
+
   if (newC < 26) {
     lcd.setCursor(0, 1);
     lcd.print("Too COLD!!");
