@@ -1,9 +1,4 @@
 <<<<<<< HEAD
-void state() {
-  int a[5] = { 9, 2, 42, 5, 8 };
-  int *pointer = &a[0];
-=======
-<<<<<<< HEAD
 const int buttonPin = 12;
 const int LED1 = 2;
 const int LED2 = 3;
@@ -265,21 +260,10 @@ void setup() {
   pinMode(led3, OUTPUT);
   pinMode(led4, OUTPUT);
   pinMode(led5, OUTPUT);
->>>>>>> 74524a81afe78e48bcf70b1bb3fec89d2da08a3b
 }
-
 
 void loop() {
-<<<<<<< HEAD
-  Serial.printf("Address of pointer is %x\n", pointer);
-  Serial.printf("Value of pointer is %d\n\n", *pointer);
-  pointer++;
-  
-  delay(3000);
-}
-=======
 
 
 }
 >>>>>>> 0ab425f2dde3ffd88eb4a2c485db8334a220e984
->>>>>>> 74524a81afe78e48bcf70b1bb3fec89d2da08a3b
