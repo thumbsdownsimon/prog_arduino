@@ -17,11 +17,12 @@ void loop() {
   double mVolt = A0input / LM35 * 5000; //convert it into millivolt since we know 10 millitvolt is 1° celcius
   double C = mVolt / 10.0 + 2;//conver the millivolt into celsius
   
-  if (C < 18) {
+  
+  if (C < 26) {
     digitalWrite(coldLed, HIGH);
     digitalWrite(midLed, LOW);
     digitalWrite(warmLed, LOW);
-  } else if (C < 24) {
+  } else if (C < 29) {
     digitalWrite(coldLed, LOW);
     digitalWrite(midLed, HIGH);
     digitalWrite(warmLed, LOW);
