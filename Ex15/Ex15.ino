@@ -7,7 +7,7 @@ WiFiClient client;
 unsigned long channelID = 2397519;        // your TS channel
 const char* APIKey = "08JET6OE2DENHIWL";  // your TS API
 const char* server = "api.thingspeak.com";
-const int postDelay = 5 * 1000;  // post data every 20 seconds
+const int postDelay = 5 * 1000;  // post data every 5 seconds
 
 const int ledPin = D2;
 
